@@ -3,8 +3,8 @@
 # Pin Code Input
 
 This is Pin Code Input component using hidden input field and render it's input.
-
-Stencil is also great for building entire apps. For that, use the [stencil-app-starter](https://github.com/ionic-team/stencil-app-starter) instead.
+It allows to enter any charaters. After entering full pin, it will be emitted as 'enter' event.
+On mobile it shows numeric keyboard.
 
 # Stencil
 
@@ -44,14 +44,6 @@ npm test
 ```
 
 Need help? Check out our docs [here](https://stenciljs.com/docs/my-first-component).
-
-
-## Naming Components
-
-When creating new component tags, we recommend _not_ using `stencil` in the component name (ex: `<stencil-datepicker>`). This is because the generated component has little to nothing to do with Stencil; it's just a web component!
-
-Instead, use a prefix that fits your company or any name for a group of related components. For example, all of the Ionic generated web components use the prefix `ion`.
-
 
 ## Using this component
 
